@@ -18,7 +18,7 @@
 </head>
 <body>
   <!--navbar -->
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md ">
     <div class="container-xl">
       <a href="#" class="navbar-brand">
         <span >
@@ -27,9 +27,15 @@
       </a>
       <!-- navbar-links -->
 
+      <!-- Toggle for mobile device nav -->
+    <button class="navbar toggler " type="button" data-bs-toggle="collaspe" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
       <!-- Left Options-->
       <div class="collaspe navbar-collaspe justify-content-start align-center mx-5" id="main-nav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-none d-md-inline">
           <li class="nav-item justfy-content-start">
             <a  class="nav-link" href="#"> Features</a>
           </li>
@@ -45,16 +51,11 @@
         </ul>
       </div>
     </div>
-
-    <!-- Toggle for mobile device nav -->
-    <button class="navbar toggler d-md-none" type="button" data-bs-toggle="collaspe" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle-navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     
 
     <!--  Right Options  -->
     <div class="collaspe navbar-collaspe justify-content-end align-center" id="main-nav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-sm-none d-md-inline">
         <li class="nav-item">
           <a  class="nav-link" href="#">  Login </a>
         </li>
@@ -77,9 +78,9 @@
           create team rituals, and watch productivity soar.</p>
           <a href="#" class="btn btn-dark btn-lg"> Learn more </a>
 
-          <div class="list-group">
+          
             
-          </div>
+          
       </div>
 
       <div class="col-md-5 text-end d-md-block my-2 py-4 mx-5 px-3">
